@@ -17,7 +17,7 @@ export default function CtaSection() {
                     Enroll Now <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="rounded-full bg-background/50">
+            <Button asChild size="lg" variant="outline" className="rounded-full bg-background/80">
                 <Link href="#courses">Download Brochure</Link>
             </Button>
           </div>

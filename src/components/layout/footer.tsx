@@ -6,7 +6,7 @@ export default function Footer() {
   const courseCategories = Object.keys(COURSES_DATA);
 
   return (
-    <footer className="bg-muted/50 border-t">
+    <footer className="dark bg-background border-t">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-muted/20 py-4 border-t">
+      <div className="bg-black/20 py-4 border-t">
         <div className="container text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} New Computer UpSkill Academy. All Rights Reserved.
         </div>

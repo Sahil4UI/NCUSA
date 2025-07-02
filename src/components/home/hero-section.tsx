@@ -35,7 +35,7 @@ export default function HeroSection() {
           <Button asChild size="lg" className="w-full sm:w-auto rounded-full">
             <Link href="/contact">Enroll Now</Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="w-full sm:w-auto rounded-full bg-background/50">
+          <Button asChild size="lg" variant="outline" className="w-full sm:w-auto rounded-full bg-background/80">
             <Link href="#courses">Download Brochure</Link>
           </Button>
            <Button asChild size="lg" variant="ghost" className="w-full sm:w-auto rounded-full">
