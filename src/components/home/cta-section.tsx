@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function CtaSection() {
   return (
-    <section className="py-20 sm:py-28 bg-background">
+    <section className="py-20 sm:py-28 bg-transparent">
       <div className="container">
         <div className="glass-card p-8 md:p-12 lg:p-16 text-center">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Ready to Transform Your Life?</h2>

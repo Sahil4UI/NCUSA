@@ -12,7 +12,7 @@ import { Star } from "lucide-react";
 
 export default function HomeTestimonials() {
   return (
-    <section className="py-16 sm:py-24 bg-gradient-to-b from-background to-blue-50 dark:from-background dark:to-blue-950/20">
+    <section className="py-16 sm:py-24 bg-transparent">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Success Stories from Our Alumni</h2>

@@ -11,7 +11,7 @@ const highlights = [
 
 export default function HighlightsSection() {
   return (
-    <section id="highlights" className="py-16 sm:py-24 bg-background">
+    <section id="highlights" className="py-16 sm:py-24 bg-transparent">
       <div className="container">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-8">
           {highlights.map((highlight, index) => (

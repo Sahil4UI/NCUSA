@@ -12,7 +12,7 @@ const featuredCourses = [
 
 export default function CoursesOverview() {
   return (
-    <section id="courses" className="py-16 sm:py-24 bg-gradient-to-b from-blue-50 to-background dark:from-blue-950/20 dark:to-background">
+    <section id="courses" className="py-16 sm:py-24 bg-transparent">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Premier Courses</h2>
