@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { GraduationCap, Menu } from 'lucide-react';
+import { GraduationCap, Menu, ArrowRight } from 'lucide-react';
 import { NAV_LINKS } from '@/lib/constants';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
@@ -37,8 +37,11 @@ export default function Header() {
           ))}
         </nav>
         <div className="flex flex-1 items-center justify-end gap-2">
-          <Button asChild className="hidden md:inline-flex rounded-full bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="/contact">Enroll Now</Link>
+          <Button asChild className="hidden md:inline-flex rounded-full">
+            <Link href="/contact">
+              <span className="font-bold">Enroll Now</span>
+              <ArrowRight />
+            </Link>
           </Button>
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
             <SheetTrigger asChild>
@@ -67,6 +70,12 @@ export default function Header() {
                     {link.label}
                   </Link>
                 ))}
+                <Button asChild className="mt-4">
+                    <Link href="/contact" onClick={() => setSheetOpen(false)}>
+                        <span className="font-bold">Enroll Now</span>
+                        <ArrowRight />
+                    </Link>
+                </Button>
               </div>
             </SheetContent>
           </Sheet>
