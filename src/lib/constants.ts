@@ -13,28 +13,28 @@ export const NAV_LINKS = [
 
 export const COURSES_DATA = {
   nursing: [
-    { title: 'ANM (Auxiliary Nursing Midwifery)', duration: '2 Years', description: 'A foundational course for a career in community health and nursing.', icon: HeartPulse },
-    { title: 'GNM (General Nursing and Midwifery)', duration: '3 Years', description: 'Comprehensive training in nursing, midwifery, and general healthcare.', icon: HeartPulse },
-    { title: 'B.Sc Nursing', duration: '4 Years', description: 'A degree program for advanced nursing practice and leadership roles in healthcare.', icon: GraduationCap },
+    { title: 'ANM (Auxiliary Nursing Midwifery)', duration: '2 Years', description: 'A foundational course for a career in community health and nursing.', iconName: 'HeartPulse' },
+    { title: 'GNM (General Nursing and Midwifery)', duration: '3 Years', description: 'Comprehensive training in nursing, midwifery, and general healthcare.', iconName: 'HeartPulse' },
+    { title: 'B.Sc Nursing', duration: '4 Years', description: 'A degree program for advanced nursing practice and leadership roles in healthcare.', iconName: 'GraduationCap' },
   ],
   paramedical: [
-    { title: 'DMLT (Diploma in Medical Lab Technology)', duration: '2 Years', description: 'Train to become a skilled lab technician performing various diagnostic tests.', icon: Dna },
-    { title: 'DRIT (Diploma in Radiography & Imaging Technology)', duration: '2 Years', description: 'Learn to operate X-ray, CT scan, and MRI equipment.', icon: Dna },
-    { title: 'DOT (Diploma in Operation Theatre Technology)', duration: '2 Years', description: 'Prepare for a crucial role in operation theatre management and surgical assistance.', icon: Dna },
-    { title: 'DPT (Diploma in Physiotherapy)', duration: '2 Years', description: 'Gain skills in therapeutic exercises and physical rehabilitation techniques.', icon: Dna },
-    { title: 'DOTT (Diploma in Ophthalmic Technology)', duration: '2 Years', description: 'Specialize in eye care, diagnostics, and assisting ophthalmologists.', icon: Dna },
+    { title: 'DMLT (Diploma in Medical Lab Technology)', duration: '2 Years', description: 'Train to become a skilled lab technician performing various diagnostic tests.', iconName: 'Dna' },
+    { title: 'DRIT (Diploma in Radiography & Imaging Technology)', duration: '2 Years', description: 'Learn to operate X-ray, CT scan, and MRI equipment.', iconName: 'Dna' },
+    { title: 'DOT (Diploma in Operation Theatre Technology)', duration: '2 Years', description: 'Prepare for a crucial role in operation theatre management and surgical assistance.', iconName: 'Dna' },
+    { title: 'DPT (Diploma in Physiotherapy)', duration: '2 Years', description: 'Gain skills in therapeutic exercises and physical rehabilitation techniques.', iconName: 'Dna' },
+    { title: 'DOTT (Diploma in Ophthalmic Technology)', duration: '2 Years', description: 'Specialize in eye care, diagnostics, and assisting ophthalmologists.', iconName: 'Dna' },
   ],
   skillDevelopment: [
-    { title: 'Advanced Diploma in Computer Applications', duration: '1 Year', description: 'Master advanced computer skills for the modern IT industry.', icon: Sparkles },
-    { title: 'Digital Marketing', duration: '6 Months', description: 'Explore SEO, SEM, social media marketing, and content strategy.', icon: Sparkles },
-    { title: 'Office Automation & Accounting', duration: '1 Year', description: 'Become proficient in office management software and accounting principles.', icon: Sparkles },
-    { title: 'Graphic & Web Design', duration: '1 Year', description: 'Unleash your creativity by learning design principles and web development.', icon: Sparkles },
-    { title: 'Spoken English & Soft Skills', duration: '3 Months', description: 'Enhance your communication, confidence, and professional etiquette.', icon: Sparkles },
+    { title: 'Advanced Diploma in Computer Applications', duration: '1 Year', description: 'Master advanced computer skills for the modern IT industry.', iconName: 'Sparkles' },
+    { title: 'Digital Marketing', duration: '6 Months', description: 'Explore SEO, SEM, social media marketing, and content strategy.', iconName: 'Sparkles' },
+    { title: 'Office Automation & Accounting', duration: '1 Year', description: 'Become proficient in office management software and accounting principles.', iconName: 'Sparkles' },
+    { title: 'Graphic & Web Design', duration: '1 Year', description: 'Unleash your creativity by learning design principles and web development.', iconName: 'Sparkles' },
+    { title: 'Spoken English & Soft Skills', duration: '3 Months', description: 'Enhance your communication, confidence, and professional etiquette.', iconName: 'Sparkles' },
   ],
   certificate: [
-    { title: 'ECG Technician', duration: '6 Months', description: 'Specialized training in performing and interpreting electrocardiograms.', icon: Award },
-    { title: 'First Aid & Emergency Care', duration: '3 Months', description: 'Learn life-saving techniques and emergency response protocols.', icon: Award },
-    { title: 'Blood Bank Technician', duration: '6 Months', description: 'Gain expertise in blood collection, storage, and transfusion processes.', icon: Award },
+    { title: 'ECG Technician', duration: '6 Months', description: 'Specialized training in performing and interpreting electrocardiograms.', iconName: 'Award' },
+    { title: 'First Aid & Emergency Care', duration: '3 Months', description: 'Learn life-saving techniques and emergency response protocols.', iconName: 'Award' },
+    { title: 'Blood Bank Technician', duration: '6 Months', description: 'Gain expertise in blood collection, storage, and transfusion processes.', iconName: 'Award' },
   ],
 };
 
