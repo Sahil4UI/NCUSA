@@ -1,6 +1,17 @@
 import { WHY_CHOOSE_US_POINTS } from '@/lib/constants';
 import Image from 'next/image';
 import { GlassCard } from '../shared/glass-card';
+import { GraduationCap, Sparkles, Award, Dna, Bot, BookOpen } from 'lucide-react';
+
+const WhyChooseUsIconMap: { [key: string]: React.ElementType } = {
+    BookOpen,
+    Dna,
+    GraduationCap,
+    Award,
+    Sparkles,
+    Bot
+};
+
 
 export default function WhyChooseUs() {
   return (
@@ -16,19 +27,22 @@ export default function WhyChooseUs() {
                 </p>
               </div>
               <div className="grid sm:grid-cols-2 gap-6">
-                {WHY_CHOOSE_US_POINTS.map((point) => (
-                  <div key={point.title} className="flex gap-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                        <point.icon className="w-6 h-6 text-primary" />
+                {WHY_CHOOSE_US_POINTS.map((point) => {
+                  const IconComponent = WhyChooseUsIconMap[point.iconName];
+                  return (
+                    <div key={point.title} className="flex gap-4">
+                      <div className="flex-shrink-0">
+                        <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                          {IconComponent && <IconComponent className="w-6 h-6 text-primary" />}
+                        </div>
+                      </div>
+                      <div>
+                        <h3 className="font-semibold">{point.title}</h3>
+                        <p className="text-sm text-muted-foreground">{point.description}</p>
                       </div>
                     </div>
-                    <div>
-                      <h3 className="font-semibold">{point.title}</h3>
-                      <p className="text-sm text-muted-foreground">{point.description}</p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           </GlassCard>

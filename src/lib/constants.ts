@@ -84,12 +84,12 @@ export const TESTIMONIALS = [
 ];
 
 export const WHY_CHOOSE_US_POINTS = [
-    { title: "Modern Smart Classrooms", description: "Engaging learning with digital boards.", icon: BookOpen },
-    { title: "Advanced Labs", description: "Fully equipped for practical training.", icon: Dna },
-    { title: "Hostel Facilities", description: "Comfortable and secure AC & non-AC rooms.", icon: GraduationCap },
-    { title: "Merit-Based Scholarships", description: "Financial aid for deserving students.", icon: Award },
-    { title: "Industrial Visits & Workshops", description: "Regular exposure to the professional world.", icon: Sparkles },
-    { title: "AI-Powered Career Guidance", description: "Personalized course recommendations.", icon: Bot },
+    { title: "Modern Smart Classrooms", description: "Engaging learning with digital boards.", iconName: 'BookOpen' },
+    { title: "Advanced Labs", description: "Fully equipped for practical training.", iconName: 'Dna' },
+    { title: "Hostel Facilities", description: "Comfortable and secure AC & non-AC rooms.", iconName: 'GraduationCap' },
+    { title: "Merit-Based Scholarships", description: "Financial aid for deserving students.", iconName: 'Award' },
+    { title: "Industrial Visits & Workshops", description: "Regular exposure to the professional world.", iconName: 'Sparkles' },
+    { title: "AI-Powered Career Guidance", description: "Personalized course recommendations.", iconName: 'Bot' },
 ];
 
 export const GALLERY_IMAGES = [
