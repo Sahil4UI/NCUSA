@@ -50,35 +50,35 @@ export const TESTIMONIALS = [
         quote: "NCUSA transformed my life and gave me the confidence to work internationally. The faculty is amazing and the placement support is unparalleled.",
         name: "Anjali Sharma",
         role: "B.Sc Nursing Graduate",
-        image: "https://placehold.co/100x100/E6E6FA/000000",
+        image: "https://placehold.co/100x100.png",
         "data-ai-hint": "smiling student",
     },
     {
         quote: "Amazing faculty, modern labs, and full support for placements. I got a job in a top hospital right after my DMLT course.",
         name: "Rohan Verma",
         role: "DMLT Graduate",
-        image: "https://placehold.co/100x100/87CEEB/000000",
+        image: "https://placehold.co/100x100.png",
         "data-ai-hint": "male professional",
     },
     {
         quote: "The best decision of my career. The practical training at NCUSA is top-notch. Thank you for making my dream a reality!",
         name: "Simran Kaur",
         role: "ANM Graduate",
-        image: "https://placehold.co/100x100/E6E6FA/000000",
+        image: "https://placehold.co/100x100.png",
         "data-ai-hint": "happy graduate",
     },
     {
         quote: "As a parent, I was impressed by the safe and friendly campus environment and the focus on overall student development.",
         name: "Mr. Gupta",
         role: "Parent",
-        image: "https://placehold.co/100x100/87CEEB/000000",
+        image: "https://placehold.co/100x100.png",
         "data-ai-hint": "professional man",
     },
     {
         quote: "NCUSA graduates are well-prepared and technically sound. We are always happy to hire from them.",
         name: "HR Manager",
         role: "Fortis Hospital",
-        image: "https://placehold.co/100x100/E6E6FA/000000",
+        image: "https://placehold.co/100x100.png",
         "data-ai-hint": "corporate headshot",
     }
 ];
@@ -93,14 +93,14 @@ export const WHY_CHOOSE_US_POINTS = [
 ];
 
 export const GALLERY_IMAGES = [
-    { src: 'https://placehold.co/600x400/87CEEB/FFFFFF', alt: 'Campus life at NCUSA', category: 'Campus Life', "data-ai-hint": "university campus" },
-    { src: 'https://placehold.co/400x600/E6E6FA/FFFFFF', alt: 'Students in practical training lab', category: 'Practical Training', "data-ai-hint": "science lab" },
-    { src: 'https://placehold.co/600x400/87CEEB/FFFFFF', alt: 'Events and workshops', category: 'Events & Workshops', "data-ai-hint": "conference room" },
-    { src: 'https://placehold.co/600x400/E6E6FA/FFFFFF', alt: 'Alumni meetups', category: 'Alumni Meetups', "data-ai-hint": "group photo" },
-    { src: 'https://placehold.co/400x600/87CEEB/FFFFFF', alt: 'Hostel and facilities', category: 'Hostel & Facilities', "data-ai-hint": "dorm room" },
-    { src: 'https://placehold.co/600x400/E6E6FA/FFFFFF', alt: 'Students in a modern classroom', category: 'Campus Life', "data-ai-hint": "modern classroom" },
-    { src: 'https://placehold.co/400x600/87CEEB/FFFFFF', alt: 'Medical lab with equipment', category: 'Practical Training', "data-ai-hint": "medical laboratory" },
-    { src: 'https://placehold.co/600x400/E6E6FA/FFFFFF', alt: 'Annual sports day event', category: 'Events & Workshops', "data-ai-hint": "sports event" },
+    { src: 'https://placehold.co/600x400.png', alt: 'Campus life at NCUSA', category: 'Campus Life', "data-ai-hint": "university campus" },
+    { src: 'https://placehold.co/400x600.png', alt: 'Students in practical training lab', category: 'Practical Training', "data-ai-hint": "science lab" },
+    { src: 'https://placehold.co/600x400.png', alt: 'Events and workshops', category: 'Events & Workshops', "data-ai-hint": "conference room" },
+    { src: 'https://placehold.co/600x400.png', alt: 'Alumni meetups', category: 'Alumni Meetups', "data-ai-hint": "group photo" },
+    { src: 'https://placehold.co/400x600.png', alt: 'Hostel and facilities', category: 'Hostel & Facilities', "data-ai-hint": "dorm room" },
+    { src: 'https://placehold.co/600x400.png', alt: 'Students in a modern classroom', category: 'Campus Life', "data-ai-hint": "modern classroom" },
+    { src: 'https://placehold.co/400x600.png', alt: 'Medical lab with equipment', category: 'Practical Training', "data-ai-hint": "medical laboratory" },
+    { src: 'https://placehold.co/600x400.png', alt: 'Annual sports day event', category: 'Events & Workshops', "data-ai-hint": "sports event" },
 ];
 
 export const BRANCHES = [

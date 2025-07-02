@@ -46,7 +46,7 @@ export default function AboutPage() {
               </div>
             </div>
             <GlassCard>
-                <Image src="https://placehold.co/600x400/E6E6FA/FFFFFF" data-ai-hint="team collaboration" alt="NCUSA Team" width={600} height={400} className="rounded-xl" />
+                <Image src="https://placehold.co/600x400.png" data-ai-hint="team collaboration" alt="NCUSA Team" width={600} height={400} className="rounded-xl" />
             </GlassCard>
           </div>
         </div>
@@ -69,9 +69,9 @@ export default function AboutPage() {
            <h2 className="text-3xl font-bold tracking-tight text-center mb-16">Our Journey</h2>
             <div className="relative">
                 <div className="absolute left-1/2 -translate-x-1/2 w-1 h-full bg-border rounded-full"></div>
-                {timelineEvents.map((item, index) => (
+                {timelineEvents.map((item) => (
                     <div key={item.year} className="flex items-center w-full mb-8">
-                        <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
+                        <div className={`w-1/2 ${item.year % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
                             <GlassCard>
                                 <p className="text-primary font-bold">{item.year}</p>
                                 <h3 className="font-semibold">{item.event}</h3>

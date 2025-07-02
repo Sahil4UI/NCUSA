@@ -17,7 +17,7 @@ export default function BranchesPage() {
                         <div className="lg:col-span-2">
                              <Card className="glass-card p-2">
                                 <Image 
-                                    src="https://placehold.co/1200x800/E6E6FA/FFFFFF" 
+                                    src="https://placehold.co/1200x800.png" 
                                     alt="Map of NCUSA Branches"
                                     data-ai-hint="India map Haryana"
                                     width={1200}

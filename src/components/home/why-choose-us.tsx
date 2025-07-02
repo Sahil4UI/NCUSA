@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
           <div className="relative h-96 lg:h-full min-h-[400px]">
             <GlassCard className="p-2 w-full h-full overflow-hidden">
                 <Image
-                    src="https://placehold.co/600x800/E6E6FA/000000"
+                    src="https://placehold.co/600x800.png"
                     alt="NCUSA Campus"
                     data-ai-hint="modern campus building"
                     fill
