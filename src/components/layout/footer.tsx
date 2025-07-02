@@ -10,8 +10,8 @@ export default function Footer() {
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <Link href="/" className="flex items-center space-x-2">
-              <GraduationCap className="h-8 w-8 text-primary" />
+            <Link href="/" className="flex items-center space-x-2 text-foreground">
+              <GraduationCap className="h-8 w-8" />
               <span className="text-xl font-bold font-headline">NCUSA</span>
             </Link>
             <p className="text-muted-foreground text-sm">

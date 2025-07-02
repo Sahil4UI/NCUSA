@@ -16,8 +16,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b dark bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
-          <GraduationCap className="h-6 w-6 text-primary" />
+        <Link href="/" className="mr-6 flex items-center space-x-2 text-foreground">
+          <GraduationCap className="h-6 w-6" />
           <span className="font-bold sm:inline-block font-headline">NCUSA</span>
         </Link>
         <nav className="hidden gap-6 text-sm md:flex">
@@ -26,10 +26,10 @@ export default function Header() {
               key={link.href}
               href={link.href}
               className={cn(
-                'transition-colors hover:text-primary',
+                'transition-colors hover:text-foreground',
                 pathname === link.href
                   ? 'text-foreground font-semibold'
-                  : 'text-muted-foreground'
+                  : 'text-foreground/70'
               )}
             >
               {link.label}
@@ -37,7 +37,7 @@ export default function Header() {
           ))}
         </nav>
         <div className="flex flex-1 items-center justify-end gap-2">
-          <Button asChild className="hidden md:inline-flex rounded-full">
+          <Button asChild className="hidden md:inline-flex rounded-full bg-accent text-accent-foreground hover:bg-accent/90">
             <Link href="/contact">Enroll Now</Link>
           </Button>
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
@@ -47,8 +47,8 @@ export default function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="dark">
-              <Link href="/" className="mr-6 flex items-center space-x-2 mb-6">
-                <GraduationCap className="h-6 w-6 text-primary" />
+              <Link href="/" className="mr-6 flex items-center space-x-2 mb-6 text-foreground">
+                <GraduationCap className="h-6 w-6" />
                 <span className="font-bold font-headline">NCUSA</span>
               </Link>
               <div className="flex flex-col gap-4">
@@ -58,10 +58,10 @@ export default function Header() {
                     href={link.href}
                     onClick={() => setSheetOpen(false)}
                     className={cn(
-                      'transition-colors hover:text-primary',
+                      'transition-colors hover:text-foreground',
                       pathname === link.href
                         ? 'text-foreground font-semibold'
-                        : 'text-muted-foreground'
+                        : 'text-foreground/70'
                     )}
                   >
                     {link.label}
