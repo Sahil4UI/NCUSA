@@ -16,32 +16,44 @@ export default function ContactPage() {
                 <div className="container">
                     <div className="grid lg:grid-cols-2 gap-16">
                         <div className="space-y-8">
-                            <h2 className="text-3xl font-bold">Get in Touch</h2>
-                             <div className="space-y-6">
-                                <div className="flex items-start gap-4">
-                                    <Phone className="h-6 w-6 text-primary mt-1" />
-                                    <div>
-                                        <h3 className="font-semibold">Phone</h3>
-                                        <a href={`tel:${CONTACT_INFO.phone1}`} className="text-muted-foreground hover:text-primary">{CONTACT_INFO.phone1}</a><br/>
-                                        <a href={`tel:${CONTACT_INFO.phone2}`} className="text-muted-foreground hover:text-primary">{CONTACT_INFO.phone2}</a>
+                            <div>
+                                <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
+                                <div className="space-y-6">
+                                    <div className="flex items-start gap-4">
+                                        <Phone className="h-6 w-6 text-primary mt-1" />
+                                        <div>
+                                            <h3 className="font-semibold">Phone</h3>
+                                            <a href={`tel:${CONTACT_INFO.phone1}`} className="text-muted-foreground hover:text-primary">{CONTACT_INFO.phone1}</a><br/>
+                                            <a href={`tel:${CONTACT_INFO.phone2}`} className="text-muted-foreground hover:text-primary">{CONTACT_INFO.phone2}</a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="flex items-start gap-4">
-                                    <Mail className="h-6 w-6 text-primary mt-1" />
-                                    <div>
-                                        <h3 className="font-semibold">Email</h3>
-                                        <a href={`mailto:${CONTACT_INFO.email}`} className="text-muted-foreground hover:text-primary">{CONTACT_INFO.email}</a>
+                                    <div className="flex items-start gap-4">
+                                        <Mail className="h-6 w-6 text-primary mt-1" />
+                                        <div>
+                                            <h3 className="font-semibold">Email</h3>
+                                            <a href={`mailto:${CONTACT_INFO.email}`} className="text-muted-foreground hover:text-primary">{CONTACT_INFO.email}</a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="flex items-start gap-4">
-                                    <MapPin className="h-6 w-6 text-primary mt-1" />
-                                    <div>
-                                        <h3 className="font-semibold">Address</h3>
-                                        <p className="text-muted-foreground">{CONTACT_INFO.address}</p>
-                                        <a href={CONTACT_INFO.mapLocation} target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:underline mt-1 inline-block">Open Map</a>
+                                    <div className="flex items-start gap-4">
+                                        <MapPin className="h-6 w-6 text-primary mt-1" />
+                                        <div>
+                                            <h3 className="font-semibold">Address</h3>
+                                            <p className="text-muted-foreground">{CONTACT_INFO.address}</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div className="h-80 w-full rounded-2xl overflow-hidden glass-card p-2">
+                                <iframe
+                                    className="w-full h-full rounded-lg border-0"
+                                    loading="lazy"
+                                    allowFullScreen
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                    src="https://maps.google.com/maps?q=NCUSA%20Kurukshetra&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                ></iframe>
+                            </div>
+
                             <div className="space-y-4">
                                 <h3 className="font-semibold">Connect on Social Media</h3>
                                 <div className="flex space-x-4">
