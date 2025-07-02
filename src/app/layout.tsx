@@ -38,7 +38,7 @@ export default function RootLayout({
         )}
       >
         <ParticleBackground />
-        <div className="relative flex min-h-dvh flex-col bg-background/95 backdrop-blur-sm">
+        <div className="relative flex min-h-dvh flex-col bg-background/90 backdrop-blur-sm">
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />

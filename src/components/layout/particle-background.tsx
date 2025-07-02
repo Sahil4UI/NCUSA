@@ -50,7 +50,7 @@ const ParticleBackground = () => {
       },
       particles: {
         color: {
-          value: ["#04d9ff", "#07f7c8", "#ff4d8a", "#fffa65", "#ffffff"],
+          value: ["#3b82f6", "#14b8a6", "#8b5cf6", "#f97316"],
         },
         links: {
           enable: false,
@@ -69,7 +69,7 @@ const ParticleBackground = () => {
           density: {
             enable: true,
           },
-          value: 150,
+          value: 100,
         },
         opacity: {
           value: 0.7,
@@ -78,7 +78,7 @@ const ParticleBackground = () => {
           type: 'circle',
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 1, max: 3 },
         },
       },
       detectRetina: true,
