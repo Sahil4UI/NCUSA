@@ -14,8 +14,8 @@ export default function TestimonialsPage() {
             <section className="py-16 sm:py-24">
                 <div className="container">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {TESTIMONIALS.map((testimonial, index) => (
-                            <Card key={index} className="h-full flex flex-col justify-between glass-card overflow-hidden">
+                        {TESTIMONIALS.map((testimonial) => (
+                            <Card key={testimonial.name} className="h-full flex flex-col justify-between glass-card overflow-hidden">
                                 <CardContent className="p-6 flex flex-col items-center text-center flex-grow">
                                     <Image
                                         src={testimonial.image}

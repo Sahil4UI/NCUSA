@@ -70,7 +70,7 @@ export default function AboutPage() {
             <div className="relative">
                 <div className="absolute left-1/2 -translate-x-1/2 w-1 h-full bg-border rounded-full"></div>
                 {timelineEvents.map((item, index) => (
-                    <div key={index} className="flex items-center w-full mb-8">
+                    <div key={item.year} className="flex items-center w-full mb-8">
                         <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
                             <GlassCard>
                                 <p className="text-primary font-bold">{item.year}</p>

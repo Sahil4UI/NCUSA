@@ -28,10 +28,10 @@ export default function CoursesOverview() {
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredCourses.map((course, index) => {
+            {featuredCourses.map((course) => {
                 const IconComponent = IconMap[course.iconName];
                 return (
-                    <GlassCard key={index} className="flex flex-col">
+                    <GlassCard key={course.title} className="flex flex-col">
                         <div className="flex-grow">
                             <div className="mb-4">
                                 {IconComponent && <IconComponent className="h-10 w-10 text-primary" />}

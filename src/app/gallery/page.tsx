@@ -38,8 +38,8 @@ export default function GalleryPage() {
                     </div>
 
                     <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
-                        {filteredImages.map((image, index) => (
-                            <div key={index} className="break-inside-avoid">
+                        {filteredImages.map((image) => (
+                            <div key={image.src} className="break-inside-avoid">
                                 <Card className="overflow-hidden glass-card p-2 group">
                                      <Image
                                         src={image.src}

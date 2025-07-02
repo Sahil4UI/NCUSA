@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <GlassCard>
-            <div className="space-y-8">
+            <div className="space-y-8 p-4">
               <div className="text-left">
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose NCUSA?</h2>
                 <p className="mt-4 max-w-2xl text-lg text-muted-foreground">

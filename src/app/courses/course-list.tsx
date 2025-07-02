@@ -52,10 +52,10 @@ export default function CourseList({ allCourses }: CourseListProps) {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {filteredCourses.map((course, index) => {
+                    {filteredCourses.map((course) => {
                         const IconComponent = IconMap[course.iconName];
                         return (
-                            <Card key={index} className="flex flex-col glass-card">
+                            <Card key={course.title} className="flex flex-col glass-card">
                                 <CardHeader>
                                     <div className="mb-4">
                                         {IconComponent && <IconComponent className="h-10 w-10 text-primary" />}

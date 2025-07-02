@@ -14,8 +14,8 @@ export default function HighlightsSection() {
     <section id="highlights" className="py-16 sm:py-24 bg-transparent">
       <div className="container">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-8">
-          {highlights.map((highlight, index) => (
-            <div key={index} className="glass-card text-center p-6 flex flex-col items-center justify-center transition-transform transform hover:-translate-y-2">
+          {highlights.map((highlight) => (
+            <div key={highlight.label} className="glass-card text-center p-6 flex flex-col items-center justify-center transition-transform transform hover:-translate-y-2">
               <highlight.icon className="h-10 w-10 text-primary mb-4" />
               <div className="text-4xl font-bold tracking-tighter">
                 <AnimatedCounter target={highlight.value} />{highlight.suffix}
