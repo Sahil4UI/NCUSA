@@ -1,4 +1,3 @@
-import ParticleBackground from '@/components/layout/particle-background';
 import { Button } from '@/components/ui/button';
 import { CheckCircle } from 'lucide-react';
 import Link from 'next/link';
@@ -13,8 +12,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="relative py-20 sm:py-28 md:py-32 lg:py-40 bg-gradient-to-b from-background to-blue-50 dark:from-background dark:to-blue-950/20 overflow-hidden">
-      <ParticleBackground />
+    <section className="relative py-20 sm:py-28 md:py-32 lg:py-40 bg-transparent overflow-hidden">
       <div className="container relative z-10 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
           Upskill Your Future with <span className="text-primary">NCUSA</span>
