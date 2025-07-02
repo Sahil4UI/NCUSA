@@ -39,6 +39,7 @@ export default function WhyChooseUs() {
                     alt="NCUSA Campus"
                     data-ai-hint="modern campus building"
                     fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover rounded-xl"
                 />
             </GlassCard>
