@@ -1,0 +1,45 @@
+import { WHY_CHOOSE_US_POINTS } from '@/lib/constants';
+import Image from 'next/image';
+
+export default function WhyChooseUs() {
+  return (
+    <section className="py-16 sm:py-24 bg-background">
+      <div className="container">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-8">
+            <div className="text-left">
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose NCUSA?</h2>
+              <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+                We provide a holistic learning environment with a focus on practical skills and future-ready education.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-6">
+              {WHY_CHOOSE_US_POINTS.map((point) => (
+                <div key={point.title} className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                      <point.icon className="w-6 h-6 text-primary" />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">{point.title}</h3>
+                    <p className="text-sm text-muted-foreground">{point.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="relative h-96 lg:h-full min-h-[400px]">
+            <Image
+              src="https://placehold.co/600x800/E6E6FA/000000"
+              alt="NCUSA Campus"
+              data-ai-hint="modern campus building"
+              fill
+              className="object-cover rounded-2xl shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
