@@ -5,6 +5,7 @@ import { Inter, Space_Grotesk } from 'next/font/google';
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster"
+import ParticleBackground from '@/components/layout/particle-background';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -36,6 +37,7 @@ export default function RootLayout({
           spaceGrotesk.variable
         )}
       >
+        <ParticleBackground />
         <div className="relative z-10 flex min-h-dvh flex-col bg-transparent">
           <Header />
           <main className="flex-1">{children}</main>
